@@ -3,13 +3,14 @@ import BoardTile from './BoardTile.js'
 
 export default class Board extends Component {
     render() {
-        const twofivesix = []
-
-
+        let tiles = [];
+        for (let i=0; i<16; i++) {
+            for (let j=0; j<16; j++) {
+                const props = {col:i, row:j}
+                tiles.push(<BoardTile {...props} />)
+        }}
         return (
-            <div class='board'>
-                <BoardTile />
-            </div>
+            <div class='board'>{tiles}</div>
         )
     }
 }
