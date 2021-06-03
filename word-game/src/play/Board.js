@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 export default class Play extends Component {
     render() {
         return (
-            <div>board</div>
+            <div class='board'>
+                
+            </div>
         )
     }
 }
