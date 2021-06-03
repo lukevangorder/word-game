@@ -1,1 +1,38 @@
-export default function chessSetReducer() {}
+export default function chessSetReducer(
+    state = {
+        pieces: {
+            WR1: {col: 1, row: 1, color: 'white', captured: false, type: 'rook'},
+            WKn1: {col: 2, row: 1, color: 'white', captured: false, type: 'knight'},
+            WB1: {col: 3, row: 1, color: 'white', captured: false, type: 'bishop'},
+            WK: {col: 4, row: 1, color: 'white', captured: false, type: 'king'},
+            WQ: {col: 5, row: 1, color: 'white', captured: false, type: 'queen'},
+            WB2: {col: 6, row: 1, color: 'white', captured: false, type: 'bishop'},
+            WKn2: {col: 7, row: 1, color: 'white', captured: false, type: 'knight'},
+            WR2: {col: 8, row: 1, color: 'white', captured: false, type: 'rook'},
+            WP1: {col: 1, row: 2, color: 'white', captured: false, type: 'pawn'},
+            WP2: {col: 2, row: 2, color: 'white', captured: false, type: 'pawn'},
+            WP3: {col: 3, row: 2, color: 'white', captured: false, type: 'pawn'},
+            WP4: {col: 4, row: 2, color: 'white', captured: false, type: 'pawn'},
+            WP5: {col: 5, row: 2, color: 'white', captured: false, type: 'pawn'},
+            WP6: {col: 6, row: 2, color: 'white', captured: false, type: 'pawn'},
+            WP7: {col: 7, row: 2, color: 'white', captured: false, type: 'pawn'},
+            WP8: {col: 8, row: 2, color: 'white', captured: false, type: 'pawn'},
+            BR1: {col: 1, row: 8, color: 'black', captured: false, type: 'rook'},
+            BKn1: {col: 2, row: 8, color: 'black', captured: false, type: 'knight'},
+            BB1: {col: 3, row: 8, color: 'black', captured: false, type: 'bishop'},
+            BK: {col: 4, row: 8, color: 'black', captured: false, type: 'king'},
+            BQ: {col: 5, row: 8, color: 'black', captured: false, type: 'queen'},
+            BB2: {col: 6, row: 8, color: 'black', captured: false, type: 'bishop'},
+            BKn2: {col: 7, row: 8, color: 'black', captured: false, type: 'knight'},
+            BR2: {col: 8, row: 8, color: 'black', captured: false, type: 'rook'},
+            BP1: {col: 1, row: 7, color: 'black', captured: false, type: 'pawn'},
+            BP2: {col: 2, row: 7, color: 'black', captured: false, type: 'pawn'},
+            BP3: {col: 3, row: 7, color: 'black', captured: false, type: 'pawn'},
+            BP4: {col: 4, row: 7, color: 'black', captured: false, type: 'pawn'},
+            BP5: {col: 5, row: 7, color: 'black', captured: false, type: 'pawn'},
+            BP6: {col: 6, row: 7, color: 'black', captured: false, type: 'pawn'},
+            BP7: {col: 7, row: 7, color: 'black', captured: false, type: 'pawn'},
+            BP8: {col: 8, row: 7, color: 'black', captured: false, type: 'pawn'},
+        }
+    }
+) {}
