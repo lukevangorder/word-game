@@ -22,3 +22,13 @@
   border-style: solid;
   border-width: 2px
 }
+
+.tilebar {
+  background-color: black;
+  position: absolute;
+  width: 640px;
+  height: 100px;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
