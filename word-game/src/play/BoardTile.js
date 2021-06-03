@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import GamePiece from './GamePiece.js';
 
 export default class BoardTile extends Component {
     render() {
