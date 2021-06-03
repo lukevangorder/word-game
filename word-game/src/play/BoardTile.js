@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 export default class BoardTile extends Component {
     render() {
         let classColor = ''
-        if (this.props.row % 2 == 1 && this.props.col % 2 == 1) {
+        if (this.props.row % 2 === 1 && this.props.col % 2 === 1) {
             classColor = 'boardtile whitetile'
-        } else if (this.props.row % 2 == 0 && this.props.col % 2 == 0) {
+        } else if (this.props.row % 2 === 0 && this.props.col % 2 === 0) {
             classColor = 'boardtile whitetile'
         } else {
             classColor = 'boardtile blacktile'

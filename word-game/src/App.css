@@ -11,12 +11,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   border-style: solid;
-  border-width: 4px
+  border-width: 4px;
+  z-index: -1
 }
 
 .boardtile {
   width: 80px;
   height: 80px;
+  z-index: 0
 }
 
 .blacktile {
@@ -28,8 +30,10 @@
 }
 
 .gamepiece {
+  position: absolute;
   width: 80px;
   height: 80px;
   background-color: transparent;
   text-align: center;
+  z-index: 1
 }
