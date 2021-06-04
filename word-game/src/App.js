@@ -12,7 +12,7 @@ function App() {
 }
 
 const mapStateToProps = (state) => {
-  return { pieces: state.pieces };
+  return { pieces: state.pieces, tiles: state.boardTiles };
 };
 
 export default connect(
